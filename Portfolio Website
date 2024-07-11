@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atharva Gour
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <h1 style="color: white;">ATHARVA GOUR</h1>
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About Me</a>
+                            <a href="#services">Projects</a>
+                            <a href="#work">Apps</a>
+                            <a href="#blog">Blog</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="https://twitter.com/AtharvaGour7">
+                        <button class="btn btn-primary">Contact</button></a>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+
+                        <style>
+                            .my-div {
+                                padding: 25px;
+                            }
+                        </style>>
+
+                        <div class="my-div">
+                        <img src="./images/man-2.png" alt="">
+                    </div>
+                    </div>
+                    <br>
+                    <div class="right flex-0.5">
+                        <h6>Atharva Gour</h6>
+                        <h1>I’m a Creative Designer<span>& Developer</span></h1>
+                        <p>a versatile designer and developer passionate about creating compelling digital experiences. 
+                            With expertise in UI/UX design and proficiency in front-end and back-end development,
+                             I specialize in crafting visually appealing, user-friendly websites and applications.
+                              Explore my work in responsive design, interface development, and graphic design, and let's collaborate to bring your ideas to life. Connect with me to discuss how we can work together on your next project!t</p>
+                        <div>
+                            <a href="https://drive.google.com/file/d/1f-AIk04IVjIvjI-ckn-R7ZPl_zodNMwZ/view">
+                            <button class="btn btn-secondary">DOWNLOAD CV</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/man.png" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! I’m Atharva Gour.</h3>
+                    <p> A seasoned designer and developer driven 
+                        by a deep passion for innovation and problem-solving.
+                         With a robust background in both UI/UX design and 
+                         full-stack development, I thrive on creating seamless,
+                          impactful digital solutions. My approach blends creativity
+                           with technical expertise to deliver websites and applications that not only look stunning but also function flawlessly across devices. From conceptualization to execution, I specialize in translating complex ideas into intuitive interfaces and dynamic user experiences. With a keen eye for detail and a commitment to quality, I’m dedicated to exceeding client expectations and pushing boundaries in digital design. Let’s collaborate on
+                         your next project and create something exceptional together.</p>
+                    <div class="social">
+                        <a href="https://www.instagram.com/atharvagour_7/?next=%2F"><img src="./images/Instagram_icon.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/atharva-gour-66057424b/"><img src="./images/linkedin-logo-3.png" alt=""></a>
+                        <a href="https://twitter.com/AtharvaGour7"> <img src="./images/x.png" alt=""></a>
+                        <a href="https://github.com/Atharva708"> <img src="./images/git.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span>Projetcs</h1>
+                <p>Various UX/UI porjects Designed by Me for Various Apple Clients</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/brush.svg" alt="">
+                        <h2>Restaurant Menu UI</h2>
+                        <p>I made a UI for a Restaurant Menu App integrating the Dishes , Categories ,Orders  and Payment Flow 
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/code.svg" alt="">
+                        <h2>E-Commere UI</h2>
+                        <p>I desgined a UI for an  E-commerce website incluuding all details for a client.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/bag.svg" alt="">
+                        <h2>Portofolio Website UI</h2>
+                        <p>Designing mutiple Portfolio websites for various clients.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/desktop.svg" alt="">
+                        <h2>Landing Page Ui</h2>
+                        <p>Desgined a landing age for a client for his upcoming new launch of a course.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/media.svg" alt="">
+                        <h2>Sing Up Flow UI</h2>
+                        <p>Sign up Flow Ui integregrating detailed functioning of each components for the same.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/phone.svg" alt="">
+                        <h2>Email Template UI</h2>
+                        <p>TEmail Template for promotion for a restaurants branding campaign .
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="freelancer">
+            <h1>I Am Available For<span> Freelancer.</span></h1>
+            <p>I provide clean and high standard UI, Website and App developments.</p>
+            <a href="https://drive.google.com/file/d/1f-AIk04IVjIvjI-ckn-R7ZPl_zodNMwZ/view">
+            <button class="btn btn-primary">Download CV</button></a>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>My<span> Client </h1>
+                <p>We provide high standar clean website for your business solutions</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"They crafted an outstanding website that surpassed our expectations with their ingenuity and professionalism. I wholeheartedly recommend them to anyone in search of top-notch web development services."</p>
+                        <span>- Jay,ABC INFOTECH</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"They provided an outstanding website, surpassing our expectations through their creativity and professionalism. I highly recommend them for anyone in need of exceptional web development services."</p>
+                        <span>- Kushagra, Oil Firm</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Their delivery of our website was exemplary, exceeding our expectations with their innovative approach and professional demeanor. I highly recommend them to anyone seeking exceptional web development services."</p>
+                        <span>- Dhaval,Orange Datatech</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"delivered an exceptional website, exceeding our expectations with their creativity and professionalism. Highly recommended for anyone seeking top-notch web development."</p>
+                        <span>- Harshita, Pharmaceutical Factory</span>
+                    </div>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="container">
+                <h1 class="section-heading"><span></span> Apps</h1>
+                <p>Fews App Developed by me</p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span>IOS development</span>
+                            <a href="#">Instagram Clone</a>
+                        </div>
+                        <img src="./images/ph-4.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>IOS development</span>
+                            <a href="#">Health and Fitness</a>
+                        </div>
+                        <img src="./images/ph-3.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Android development</span>
+                            <a href="#">Store inventory Mangement</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Android developmen</span>
+                            <a href="#">Blood For All</a>
+                        </div>
+                        <img src="./images/ph-2.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Web development</span>
+                            <a href="#">Tiger9 Adventure</a>
+                        </div>
+                        <img src="./images/ph-5.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Web development</span>
+                            <a href="#">24X7 WeFixIt</a>
+                        </div>
+                        <img src="./images/ph-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Blogs</h1>
+                <p>Few of my Own and Most Liked Blogs On Technology</p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/article-3.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>The Evolution of User Interface Design</h1>
+                            </a>
+                            <span>May 12, 2024</span>
+                            <p>Explore the dynamic landscape of UI design over the years, from skeuomorphism to minimalism and beyond. Discover how emerging technologies like AR/VR are shaping the future of user interaction and design principles..</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/article-2.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Mastering Responsive Web Design</h1>
+                            </a>
+                            <span>May 2, 2024</span>
+                            <p>Dive into the essentials of responsive web design (RWD) with this comprehensive guide. Learn about flexible grids, media queries, and popular frameworks like Bootstrap, and discover the tools and techniques that ensure your websites look great on every device.
+
+                            </p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/articel-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>From Sketch to Code</h1>
+                            </a>
+                            <span>April 23, 2024</span>
+                            <p>Uncover strategies for seamless collaboration between designers and developers. Explore methods for translating design mockups into functional code while maintaining design integrity, efficiency, and effective communication throughout the process..</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Me</span></h1>
+                <p>A New Project, Any Doubt Or just a Hii get in Touch With me/p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone-2.svg" alt="width:30">
+                        <h1>Call Me On</h1>
+                        <h6>+91 74703-10460</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/msg.svg" alt="">
+                        <h1>Email Me At</h1>
+                        <h6>atharvagour07@icloud.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/map.svg" alt="">
+                        <h1>Get In touch at</h1>
+                        <h6>LinkedIn - Atharv Gour</h6>
+                    </div>
+
+                </div>
+
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <h1 style="color: white;">ATHARVA GOUR</h1>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/atharvagour_7/?next=%2F"><img src="./images/website.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/atharva-gour-66057424b/"><img src="./images/facebook.svg" alt=""></a>
+                <a href="https://twitter.com/AtharvaGour7"> <img src="./images/twitter.svg" alt=""></a>
+                <a href="https://in.pinterest.com/atharvagour07/"> <img src="./images/pintrest.svg" alt=""></a>
+                <a href="https://github.com/Atharva708"> <img src="./images/instagram.svg" alt=""></a>
+            </div>
+            <div class="copyright">
+                Copyright 2024 © Atharva Gour
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
