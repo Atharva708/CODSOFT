@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewpoint" content="width=evicce-width, initail-scale=1.0">
+    <title> Atharva's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="Calculator">
+<form>
+    <div class="display">
+        <input type="text" name="display" value="">
+    </div>
+
+   <div>
+<input type="button" value="AC"  onclick="display.value ='' " class="gray">
+<input type="button" value="DE" onclick="display.value = display.value.toString().slice(0,-1) " class="gray">
+<input type="button" value="%" onclick="display.value = (display.value)/100" class="gray">
+<input type="button" value="/"  onclick="display.value +='/' " class="orange">
+   </div>
+
+   <div>
+    <input type="button" value="7" onclick="display.value +='7' " class="dgray">
+    <input type="button" value="8"  onclick="display.value +='8' " class="dgray">
+    <input type="button" value="9"  onclick="display.value +='9' "class="dgray">
+    <input type="button" value="X"  onclick="display.value +='*' " class="orange">
+       </div>
+
+       <div>
+        <input type="button" value="4"  onclick="display.value +='4' " class="dgray">
+        <input type="button" value="5" onclick="display.value +='5' " class="dgray">
+        <input type="button" value="6"  onclick="display.value +='6' " class="dgray">
+        <input type="button" value="-"  onclick="display.value +='-' " class="orange">
+           </div>
+
+           <div>
+            <input type="button" value="1"  onclick="display.value +='1' " class="dgray">
+            <input type="button" value="2"  onclick="display.value +='2' " class="dgray">
+            <input type="button" value="3"  onclick="display.value +='3' " class="dgray">
+            <input type="button" value="+"  onclick="display.value +='+' " class="orange">
+               </div>    
+
+
+               <div>
+                <input type="button" value="0"  class="zero" onclick="display.value +='0' " >
+                <input type="button" value="."  onclick="display.value +='.' " class="dgray">
+                <input type="button" value="="onclick="display.value = eval(display.value) "  class="orange">
+                   </div>
+</form>
+    </div>
+    </div>
+</body>
+</html>
